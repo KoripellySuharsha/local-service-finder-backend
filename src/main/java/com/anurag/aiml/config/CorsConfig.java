@@ -18,7 +18,8 @@ public class CorsConfig {
                         .allowedOrigins(
                                 "http://localhost:5173",
                                 "http://localhost:5174",
-                                "https://local-service-finder-frontend-tau.vercel.app"
+                                "https://local-service-finder-frontend-tau.vercel.app",
+                                "https://local-service-finder-frontend-8sohqw5b9-local-service-finder.vercel.app"
                         )
                         .allowedMethods(
                                 "GET", "POST", "PUT", "DELETE", "OPTIONS"
