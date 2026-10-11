@@ -17,7 +17,8 @@ public class CorsConfig {
                 registry.addMapping("/api/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "http://localhost:5174"
+                                "http://localhost:5174",
+                                "https://local-service-finder-frontend-tau.vercel.app"
                         )
                         .allowedMethods(
                                 "GET", "POST", "PUT", "DELETE", "OPTIONS"
